@@ -1,0 +1,15 @@
+Command	Action Performed
+Alexa	                --->    Activates the assistant to listen to the next command
+Open Google	            --->    Opens https://google.com in the default web browser
+Open Facebook           --->	Opens https://facebook.com
+Open YouTube            --->	Opens https://youtube.com
+Open LinkedIn           --->	Opens https://linkedin.com
+Play [song name]        --->	Plays a song from custom musicLibrary if found, else searches on YouTube
+Weather in [city name]  --->	Provides current weather info and temperature for the specified city
+What's the time / Time	--->    Tells the current system time
+What's the date / Date	--->    Tells today's date in DD Month YYYY format
+News	                --->    Reads out the top 5 news headlines from India using NewsAPI
+Take a note	            --->    Asks user to speak a note and saves it to a file named notes.txt
+Read my notes	        --->    Reads all the saved notes from notes.txt
+Exit / Shutdown	        --->    Speaks shutdown message and stops the program
+(Any other question)	--->    Forwards the query to OpenAI GPT and gives a short intelligent response
